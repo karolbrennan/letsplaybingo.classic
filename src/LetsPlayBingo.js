@@ -560,13 +560,11 @@ class LetsPlayBingo extends Component {
 						<div className="col c50 padding">
 							<h5 className="no-margin">Recent Updates</h5>
 							<p className="small-text">
-								<span className="notranslate">Let's Play Bingo! Classic</span> edition was last updated on 1/10/2023.
+								<span className="notranslate">Let's Play Bingo! Classic</span> edition was last updated on 6/1/2023.
 							</p>
 							<ul className="small-text">
-								<li>Improved the ball display.</li>
-								<li>Increased text size on the board a little bit.</li>
-								<li>Added a few links to other editions of the site.</li>
-								<li>Added "Classic Edition" to the logo.</li>
+								<li>Updated donation options.</li>
+								<li>Changed footer text.</li>
 							</ul>
 							<p className="small-text">
 								<strong>Known Issue:</strong> In the Safari browser on Mac, some versions in the last year or two have bugs where no
