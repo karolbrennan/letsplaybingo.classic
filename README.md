@@ -1,4 +1,4 @@
-# Bingo Caller
+# Let's Play Bingo - Classic
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c5306ef6-ffe8-445d-b74c-64a897abff28/deploy-status)](https://app.netlify.com/sites/lpbclassic/deploys)
 

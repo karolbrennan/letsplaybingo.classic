@@ -613,7 +613,7 @@ class LetsPlayBingo extends Component {
 				<footer>
 					<div className="row">
 						<div className="col c30 text-left">
-							<div className="addthis_inline_share_toolbox"></div>
+							Check out this project on <a href="https://github.com/karolbrennan/letsplaybingo.classic">GitHub</a>
 						</div>
 						<div className="col c40 text-center">
 							<p>
@@ -621,11 +621,11 @@ class LetsPlayBingo extends Component {
 								<a href="https://letsplaybingo.io" className="notranslate">
 									Let's Play Bingo!
 								</a>
+								<br />
+								For entertainment purposes only.
 							</p>
 						</div>
 						<div className="col c30 text-right">
-							For entertainment purposes only.
-							<br />
 							<a href="https://letsplaybingo.io/releases">Release Notes</a> | <a href="https://letsplaybingo.io/terms">Terms of Use</a>{" "}
 							| <a href="https://letsplaybingo.io/privacy">Cookies &amp; Privacy Policy</a>
 						</div>
