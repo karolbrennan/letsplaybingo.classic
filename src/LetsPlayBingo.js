@@ -524,16 +524,12 @@ class LetsPlayBingo extends Component {
 						<div className="col c75 padding">
 							<p className="medium-text">
 								Use this free bingo caller to host your own bingo games at home! You provide the cards, we generate the bingo numbers!
-								No downloads, no ads and <strong>completely free</strong>!
+								No downloads, no ads, and <strong>completely free</strong>!
 							</p>
 							<p className="small-text">
 								Thank you to those who have reached out to me to tell me how much they enjoy my bingo caller. I created this site in
 								honor of my late grandmother, we used to play bingo together using a little electronic bingo caller. Grandma Jo - this
 								is for you. &hearts; - Karol
-							</p>
-							<p className="small-text">
-								Have ideas for how to make Let's Play Bingo even better? Send a message to{" "}
-								<a href="mailto:hello@letsplaybingo.io?subject=Let's Play Bingo Classic!">hello@letsplaybingo.io</a>!
 							</p>
 							<p className="small-text no-margin">
 								<strong>Note:</strong> The classic edition is very rarely worked on, generally only for fixing issues as people bring
@@ -541,11 +537,11 @@ class LetsPlayBingo extends Component {
 								<a href="https://letsplaybingo.io" className="notranslate">
 									LetsPlayBingo.io
 								</a>
-								. If you'd like to try 90 ball bingo, check out{" "}
+								. You can also try{" "}
 								<a href="https://90ball.letsplaybingo.io" className="notranslate">
 									90 Ball
-								</a>
-								! You can also check out the{" "}
+								</a>{" "}
+								or the{" "}
 								<a href="https://beta.letsplaybingo.io" className="notranslate">
 									beta edition
 								</a>{" "}
@@ -565,6 +561,8 @@ class LetsPlayBingo extends Component {
 							<ul className="small-text">
 								<li>Updated donation options.</li>
 								<li>Changed footer text.</li>
+								<li>Added link to github repo.</li>
+								<li>Updated text across the site.</li>
 							</ul>
 							<p className="small-text">
 								<strong>Known Issue:</strong> In the Safari browser on Mac, some versions in the last year or two have bugs where no
@@ -575,9 +573,15 @@ class LetsPlayBingo extends Component {
 								</a>{" "}
 								and using that browser for gameplay.
 							</p>
+							<p className="small-text">
+								Found a Bug? Let me know! Send an email to
+								<a href="mailto:hello@letsplaybingo.io?subject=Let's Play Bingo Classic!">hello@letsplaybingo.io</a>.
+								<br />
+								Check out this project on <a href="https://github.com/karolbrennan/letsplaybingo.classic">GitHub</a>.
+							</p>
 						</div>
 						<div className="col c50 padding small-text">
-							<h3 className="no-margin">Love the app? Want to show your support?</h3>
+							<h3>Love the app? Want to show your support?</h3>
 							<p>
 								<span className="notranslate">Let's Play Bingo</span> is completely <strong>ad free</strong> and is run by a single
 								developer. If you'd like to contribute toward the costs associated with running a website like this, or want to tip
@@ -610,17 +614,13 @@ class LetsPlayBingo extends Component {
 
 				<footer>
 					<div className="row">
-						<div className="col c30 text-left">
-							Check out this project on <a href="https://github.com/karolbrennan/letsplaybingo.classic">GitHub</a>
-						</div>
+						<div className="col c30 text-left">For entertainment purposes only.</div>
 						<div className="col c40 text-center">
 							<p>
 								© 2017-{this.year}{" "}
 								<a href="https://letsplaybingo.io" className="notranslate">
 									Let's Play Bingo!
 								</a>
-								<br />
-								For entertainment purposes only.
 							</p>
 						</div>
 						<div className="col c30 text-right">
