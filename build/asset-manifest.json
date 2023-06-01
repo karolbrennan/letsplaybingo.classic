@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fa061f06.chunk.css",
+    "main.js": "/static/js/main.cdf498c8.chunk.js",
+    "main.js.map": "/static/js/main.cdf498c8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9a433e25.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9a433e25.js.map",
+    "static/css/2.75b42941.chunk.css": "/static/css/2.75b42941.chunk.css",
+    "static/js/2.764857b0.chunk.js": "/static/js/2.764857b0.chunk.js",
+    "static/js/2.764857b0.chunk.js.map": "/static/js/2.764857b0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.573f031946e6c5fc675848f1eaedea25.js": "/precache-manifest.573f031946e6c5fc675848f1eaedea25.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.75b42941.chunk.css.map": "/static/css/2.75b42941.chunk.css.map",
+    "static/css/main.fa061f06.chunk.css.map": "/static/css/main.fa061f06.chunk.css.map",
+    "static/js/2.764857b0.chunk.js.LICENSE.txt": "/static/js/2.764857b0.chunk.js.LICENSE.txt",
+    "static/media/buyacoffee.png": "/static/media/buyacoffee.15f4a71d.png",
+    "static/media/logo.svg": "/static/media/logo.5a6f7124.svg",
+    "static/media/paypalme.jpeg": "/static/media/paypalme.e1869679.jpeg",
+    "static/media/venmo.jpeg": "/static/media/venmo.0bfe8021.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9a433e25.js",
+    "static/css/2.75b42941.chunk.css",
+    "static/js/2.764857b0.chunk.js",
+    "static/css/main.fa061f06.chunk.css",
+    "static/js/main.cdf498c8.chunk.js"
+  ]
+}
