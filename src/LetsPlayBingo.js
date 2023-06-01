@@ -9,8 +9,9 @@ import _ from "underscore";
 import Select from "react-select";
 // Styles and Images
 import logo from "./logo.svg";
-import venmo from "./images/venmo.jpg";
-import paypal from "./images/paypalme.png";
+import venmo from "./images/venmo.jpeg";
+import paypal from "./images/paypalme.jpeg";
+import buyacoffee from "./images/buyacoffee.png";
 import "react-select/dist/react-select.css";
 // Components
 import BingoBoard from "./components/BingoBoard.js";
@@ -532,7 +533,7 @@ class LetsPlayBingo extends Component {
 							</p>
 							<p className="small-text">
 								Have ideas for how to make Let's Play Bingo even better? Send a message to{" "}
-								<a href="mailto:hello@letsplaybingo.io">hello@letsplaybingo.io</a>!
+								<a href="mailto:hello@letsplaybingo.io?subject=Let's Play Bingo Classic!">hello@letsplaybingo.io</a>!
 							</p>
 							<p className="small-text no-margin">
 								<strong>Note:</strong> The classic edition is very rarely worked on, generally only for fixing issues as people bring
@@ -556,7 +557,7 @@ class LetsPlayBingo extends Component {
 
 				<section className="bg-gray">
 					<div className="row vertical-top">
-						<div className="col c60 padding">
+						<div className="col c50 padding">
 							<h5 className="no-margin">Recent Updates</h5>
 							<p className="small-text">
 								<span className="notranslate">Let's Play Bingo! Classic</span> edition was last updated on 1/10/2023.
@@ -577,20 +578,33 @@ class LetsPlayBingo extends Component {
 								and using that browser for gameplay.
 							</p>
 						</div>
-						<div className="col c40 padding">
-							<h5 className="no-margin">
-								Donate to <span className="notranslate">Let's Play Bingo!</span>
-							</h5>
-							<p className="small-text">
-								If you'd like to contribute toward the operating costs of Let's Play Bingo you can send donations of any amount via
-								Venmo or Paypal!
-								<br />
+						<div className="col c50 padding small-text">
+							<h3 className="no-margin">Love the app? Want to show your support?</h3>
+							<p>
+								<span className="notranslate">Let's Play Bingo</span> is completely <strong>ad free</strong> and is run by a single
+								developer. If you'd like to contribute toward the costs associated with running a website like this, or want to tip
+								the developer just to say thanks, I am accepting donations via Buy Me A Coffee, Paypal, or Venmo!
+							</p>
+							<p>
+								<a href="https://www.buymeacoffee.com/letsplaybingo" target="_blank" rel="noopener noreferrer">
+									<img className="qr-code" src={buyacoffee} alt="buy a coffee" />
+								</a>
 								<a href="https://venmo.com/karolbrennan" target="_blank" rel="noopener noreferrer">
 									<img className="qr-code" src={venmo} alt="venmo" />
 								</a>
 								<a href="https://paypal.me/karolbrennan" target="_blank" rel="noopener noreferrer">
 									<img className="qr-code" src={paypal} alt="paypal" />
 								</a>
+							</p>
+							<p>
+								<strong>Buy Me a Coffee</strong> allows you to make a donation using a credit/debit card processed securely through{" "}
+								<a href="https://stripe.com" target="_blank" rel="noopener noreferrer">
+									Stripe
+								</a>{" "}
+								with no need to log in or create an account!
+							</p>
+							<p>
+								<strong>Paypal</strong> allows you to donate automatically on a weekly or monthly basis!
 							</p>
 						</div>
 					</div>
