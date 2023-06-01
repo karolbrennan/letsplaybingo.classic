@@ -81,6 +81,10 @@ img {
   font-size: .75rem;
   line-height: 1.5;
 }
+.single-line-height {
+  line-height: 1.25 !important;
+  display: inline-block;
+}
 .intl {
   font-size: 0.8rem;
 }

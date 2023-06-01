@@ -510,7 +510,7 @@ class LetsPlayBingo extends Component {
 									}))}
 								/>
 							) : (
-								"Sorry, your browser doesn't support our vocal caller! Try Chrome!"
+								<span class="small-text single-line-height">Sorry, your browser doesn't support our vocal caller! Try Chrome!</span>
 							)}
 						</div>
 					</div>
