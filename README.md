@@ -1,6 +1,4 @@
-# Let's Play Bingo - Classic
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c5306ef6-ffe8-445d-b74c-64a897abff28/deploy-status)](https://app.netlify.com/sites/lpbclassic/deploys)
+# Let's Play Bingo - Classic [![Netlify Status](https://api.netlify.com/api/v1/badges/c5306ef6-ffe8-445d-b74c-64a897abff28/deploy-status)](https://app.netlify.com/sites/lpbclassic/deploys)
 
 This is a very simple bingo caller - it generates random bingo numbers, keeps track of them on a live bingo board.
 If voice synthesis is supported by the browser the balls will be called aloud using the web speech synthesis api.
