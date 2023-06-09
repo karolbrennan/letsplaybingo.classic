@@ -53,8 +53,8 @@ img {
   background-color: #efefef;
 }
 .qr-code {
-  max-width: 45%;
-  max-height: 125px;
+  width: auto;
+  height: 125px;
 }
 
 .text-right {
