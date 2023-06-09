@@ -270,7 +270,7 @@ footer {
 }
 
 .goog-te-gadget-icon {
-  margin: 0;
+  display: none;
 }
 
 /* Animations */
