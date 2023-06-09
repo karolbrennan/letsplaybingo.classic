@@ -574,7 +574,7 @@ class LetsPlayBingo extends Component {
 								and using that browser for gameplay.
 							</p>
 							<p className="small-text">
-								Found a Bug? Let me know! Send an email to
+								Found a Bug? Let me know! Send an email to{" "}
 								<a href="mailto:hello@letsplaybingo.io?subject=Let's Play Bingo Classic!">hello@letsplaybingo.io</a>.
 								<br />
 								Check out this project on <a href="https://github.com/karolbrennan/letsplaybingo.classic">GitHub</a>.
