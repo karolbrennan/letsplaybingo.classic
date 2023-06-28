@@ -2,7 +2,7 @@
 
 This is a very simple bingo caller - it generates random bingo numbers, keeps track of them on a live bingo board.
 If voice synthesis is supported by the browser the balls will be called aloud using the web speech synthesis api.
-This is the original version of Let's Play Bingo before the late april 2020 redesign.
+This is the first ReactJS version of Let's Play Bingo written before the late April 2020 redesign.
 
 #### Current URL
 
