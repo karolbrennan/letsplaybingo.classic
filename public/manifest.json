@@ -2,7 +2,7 @@
   "short_name": "Let's Play Bingo Classic",
   "name": "Let's Play Bingo Classic",
   "description": "Bingo calling application.",
-  "start_url": "https://classic.letsplaybingo.io",
+  "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "orientation": "landscape",

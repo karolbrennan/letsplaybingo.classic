@@ -561,8 +561,8 @@ class LetsPlayBingo extends Component {
 								<span className="notranslate">Let's Play Bingo! Classic</span> edition was last updated on 1/7/2024.
 							</p>
 							<ul className="small-text">
-								<li>Made app available for download.</li>
-								<li>Made fixes to CSS classses.</li>
+								{/* <li>Made app available for download.</li> */}
+								{/* <li>Made fixes to CSS classses.</li> */}
 							</ul>
 							<p className="small-text">
 								<strong>Known Issue:</strong> In the Safari browser on Mac, some versions in the last year or two have bugs where no
