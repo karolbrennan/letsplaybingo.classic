@@ -2,9 +2,10 @@ const CACHE_NAME = "letsplaybingo-v2.0-cache";
 
 self.addEventListener("install", function (event) {
 	event.waitUntil(
-		caches.open(CACHE_NAME).then((cache) => {
+		caches.open(CACHE_NAME).then(async (cache) => {
 			// Open a cache and cache our files
-			return cache.addAll(["/", "/index.html", "/bundle.js"]).then(() => self.skipWaiting());
+			await cache.addAll(["https://classic.letsplaybingo.io", "/", "/index.html", "/bundle.js"]);
+			return self.skipWaiting();
 		})
 	);
 });

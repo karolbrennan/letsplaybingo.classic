@@ -3,7 +3,7 @@
   "name": "Let's Play Bingo Classic",
   "description": "Bingo calling application.",
   "icons": [
-    {"src":"/android-icon-192x192.png","sizes":"192x192","type":"image/png"},
+    {"src":"/images/android-icon-192x192.png","sizes":"192x192","type":"image/png"},
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
@@ -17,7 +17,7 @@
   "background_color": "#ffffff",
   "screenshots": [
     {
-      "src": "/ogimage.png",
+      "src": "/images/ogimage.png",
       "type": "image/png",
       "sizes": "2842×1690",
       "form_factor": "wide"
