@@ -10,7 +10,7 @@
       "type": "image/x-icon"
     }
   ],
-  "start_url": "/index.html",
+  "start_url": "https://classic.letsplaybingo.io",
   "display": "standalone",
   "orientation":"landscape",
   "theme_color":"#00487b",
