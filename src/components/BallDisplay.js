@@ -37,8 +37,8 @@ class BallDisplay extends React.Component {
 					<div id="ballcount">{_.where(this.props.balls, { called: true }).length}</div>
 					<div className="content">
 						<span>
-							<span class="ball-letter">{currentBall.letter}</span>
-							<span class="ball-number">{currentBall.number}</span>
+							<span className="ball-letter">{currentBall.letter}</span>
+							<span className="ball-number">{currentBall.number}</span>
 						</span>
 					</div>
 				</div>
