@@ -510,7 +510,9 @@ class LetsPlayBingo extends Component {
 									}))}
 								/>
 							) : (
-								<span class="small-text single-line-height">Sorry, your browser doesn't support our vocal caller! Try Chrome!</span>
+								<span className="small-text single-line-height">
+									Sorry, your browser doesn't support our vocal caller! Try Chrome!
+								</span>
 							)}
 						</div>
 					</div>
@@ -556,13 +558,11 @@ class LetsPlayBingo extends Component {
 						<div className="col c50 padding">
 							<h5 className="no-margin">Recent Updates</h5>
 							<p className="small-text">
-								<span className="notranslate">Let's Play Bingo! Classic</span> edition was last updated on 6/1/2023.
+								<span className="notranslate">Let's Play Bingo! Classic</span> edition was last updated on 1/7/2024.
 							</p>
 							<ul className="small-text">
-								<li>Updated donation options.</li>
-								<li>Changed footer text.</li>
-								<li>Added link to github repo.</li>
-								<li>Updated text across the site.</li>
+								<li>Made app available for download.</li>
+								<li>Made fixes to CSS classses.</li>
 							</ul>
 							<p className="small-text">
 								<strong>Known Issue:</strong> In the Safari browser on Mac, some versions in the last year or two have bugs where no
@@ -571,7 +571,8 @@ class LetsPlayBingo extends Component {
 								<a href="https://www.google.com/chrome/" rel="noopener noreferrer" target="_blank">
 									Google Chrome
 								</a>{" "}
-								and using that browser for gameplay.
+								and using that browser for gameplay. Otherwise, try the <a href="https://letsplaybingo.io">latest edition</a> which
+								has an mp3 caller option.
 							</p>
 							<p className="small-text">
 								Found a Bug? Let me know! Send an email to{" "}
@@ -624,8 +625,8 @@ class LetsPlayBingo extends Component {
 							</p>
 						</div>
 						<div className="col c30 text-right">
-							<a href="https://letsplaybingo.io/releases">Release Notes</a> | <a href="https://letsplaybingo.io/terms">Terms of Use</a>{" "}
-							| <a href="https://letsplaybingo.io/privacy">Cookies &amp; Privacy Policy</a>
+							<a href="https://letsplaybingo.io/terms">Terms of Use</a> |{" "}
+							<a href="https://letsplaybingo.io/privacy">Cookies &amp; Privacy Policy</a>
 						</div>
 					</div>
 				</footer>

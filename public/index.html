@@ -59,6 +59,21 @@
 	<body>
 		<noscript>You need to enable JavaScript to run this app.</noscript>
 		<div id="root"></div>
+		<!-- Service Worker -->
+		<script>
+			if ("serviceWorker" in navigator) {
+				window.addEventListener("load", () => {
+					navigator.serviceWorker
+						.register("./service-worker.js")
+						.then((reg) => {
+							console.log("registered");
+						})
+						.catch((error) => {
+							console.error(error);
+						});
+				});
+			}
+		</script>
 		<!-- START Google Translate -->
 		<script defer type="text/javascript">
 			function googleTranslateElementInit() {
