@@ -17,26 +17,16 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("fetch", function (event) {
 	if (navigator.onLine) {
 		const fetchRequest = event.request.clone();
-		if (!fetchRequest.url.includes("submitpattern") && !fetchRequest.url.includes("contact")) {
-			return fetch(fetchRequest).then((response) => {
-				if (!response || response.status !== 200 || response.type !== "basic") {
-					return response;
-				}
-				const responseToCache = response.clone();
-				caches.open(CACHE_NAME).then((cache) => {
-					cache.put(event.request, responseToCache);
-				});
-
+		return fetch(fetchRequest).then((response) => {
+			if (!response || response.status !== 200 || response.type !== "basic") {
 				return response;
+			}
+			const responseToCache = response.clone();
+			caches.open(CACHE_NAME).then((cache) => {
+				cache.put(event.request, responseToCache);
 			});
-		}
-	} else {
-		event.respondWith(
-			caches.match(event.request).then(function (response) {
-				if (response) {
-					return response;
-				}
-			})
-		);
+
+			return response;
+		});
 	}
 });
