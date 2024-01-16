@@ -558,11 +558,17 @@ class LetsPlayBingo extends Component {
 						<div className="col c50 padding">
 							<h5 className="no-margin">Recent Updates</h5>
 							<p className="small-text">
-								<span className="notranslate">Let's Play Bingo! Classic</span> edition was last updated on 1/7/2024.
+								<span className="notranslate">Let's Play Bingo! Classic</span> edition was last updated on 1/15/2024.
 							</p>
 							<ul className="small-text">
-								{/* <li>Made app available for download.</li> */}
-								{/* <li>Made fixes to CSS classses.</li> */}
+								<li>
+									Made app available for download as a Progressive Web App! For instructions on how to download{" "}
+									<a href="https://support.google.com/chrome/answer/9658361?hl=en&co=GENIE.Platform%3DDesktop" target="_blank">
+										check out this article from Google.
+									</a>
+								</li>
+								<li>Updated icons and logos to the latest logo.</li>
+								<li>Made fixes to CSS classses.</li>
 							</ul>
 							<p className="small-text">
 								<strong>Known Issue:</strong> In the Safari browser on Mac, some versions in the last year or two have bugs where no

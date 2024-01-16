@@ -546,14 +546,6 @@ class Pattern extends React.Component {
 					G: [true, true, false, false, false],
 					O: [false, true, true, false, false],
 				},
-				// Template
-				// "": {
-				//   B: [false, false, false, false, false],
-				//   I: [false, false, false, false, false],
-				//   N: [false, false, false, false, false],
-				//   G: [false, false, false, false, false],
-				//   O: [false, false, false, false, false]
-				// },
 			},
 		};
 
