@@ -15,7 +15,7 @@
   ],
   "screenshots": [
     {
-      "src": "/images/ogimage.png",
+      "src": "/ogimage.png",
       "type": "image/png",
       "sizes": "2930×1752",
       "form_factor": "wide"
