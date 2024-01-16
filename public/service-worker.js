@@ -4,7 +4,7 @@ self.addEventListener("install", function (event) {
 	event.waitUntil(
 		caches.open(CACHE_NAME).then(async (cache) => {
 			// Open a cache and cache our files
-			await cache.addAll(["/", "/index.html", "/static/js/"]);
+			await cache.addAll(["/", "/index.html", "/static"]);
 			return self.skipWaiting();
 		})
 	);
